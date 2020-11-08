@@ -9086,6 +9086,15 @@ strapi-generate-api@3.1.1:
     pluralize "^7.0.0"
     strapi-utils "3.1.1"
 
+strapi-generate-api@3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.2.5.tgz#4ad2e848116cfa836680b02d0a8bc2dc43b1790d"
+  integrity sha512-xQf75phYrh3gPeO2LFb5Aa1K2ksJ6EHlclJVx6QU8+cC8gJlcMkC1jm6BpR7yrcp93YGaHgFcwAbaXhTOdnaog==
+  dependencies:
+    lodash "4.17.19"
+    pluralize "^8.0.0"
+    strapi-utils "3.2.5"
+
 strapi-generate-controller@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/strapi-generate-controller/-/strapi-generate-controller-3.1.1.tgz#06b31076dd8f408cf00416262cc8f45b4f867a6e"
@@ -9154,6 +9163,17 @@ strapi-generate@3.1.1:
     lodash "^4.17.11"
     reportback "^2.0.2"
     strapi-utils "3.1.1"
+
+strapi-generate@3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.2.5.tgz#456a27edc10c9b14aebcaa0c3f73a7244ec2faab"
+  integrity sha512-IIy4NHay6dH2qj7E6KrxBNypFi9hbXMGteQ+Jr+3d6zknx42VPnMuYuKpglHG7zTQ3/EeaghbYPzNSTZKZvS5A==
+  dependencies:
+    async "^2.6.2"
+    fs-extra "^9.0.1"
+    lodash "4.17.19"
+    reportback "^2.0.2"
+    strapi-utils "3.2.5"
 
 strapi-helper-plugin@3.1.1:
   version "3.1.1"
@@ -9252,17 +9272,23 @@ strapi-plugin-content-manager@3.2.5:
     strapi-utils "3.2.5"
     yup "^0.27.0"
 
-strapi-plugin-content-type-builder@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.1.1.tgz#aa9dc888cfdf90edb7f49838d6c4919b56276b22"
-  integrity sha512-95vslm7wI3sQk6zeDabkticfHj+zN1DfpeYIUHMkzfrt9j/sy99NorSdnApnDx5WAcpMGlxnjsmksaU+XhfLgw==
+strapi-plugin-content-type-builder@3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.2.5.tgz#9bbe785b510b8b9b6e11d19f20861d889e0ef98d"
+  integrity sha512-b+posQKbHeg5cqgMi5ToPT1m05ztWfVlg08Rz46PFsJ1gQ07Pcua/Re05rM3gnAnQOdkp1qxcYeab+8ISlKjnQ==
   dependencies:
+    "@buffetjs/core" "3.3.1"
+    "@buffetjs/custom" "3.3.1"
+    "@buffetjs/hooks" "3.3.1"
+    "@buffetjs/icons" "3.3.1"
+    "@buffetjs/styles" "3.3.1"
+    "@buffetjs/utils" "3.3.1"
     "@sindresorhus/slugify" "1.1.0"
-    fs-extra "^7.0.0"
+    fs-extra "^9.0.1"
     immutable "^3.8.2"
-    lodash "^4.17.11"
-    pluralize "^7.0.0"
-    react "^16.9.0"
+    lodash "4.17.19"
+    pluralize "^8.0.0"
+    react "^16.13.1"
     react-dom "^16.9.0"
     react-intl "4.5.0"
     react-redux "7.2.0"
@@ -9272,10 +9298,10 @@ strapi-plugin-content-type-builder@3.1.1:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-generate "3.1.1"
-    strapi-generate-api "3.1.1"
-    strapi-helper-plugin "3.1.1"
-    strapi-utils "3.1.1"
+    strapi-generate "3.2.5"
+    strapi-generate-api "3.2.5"
+    strapi-helper-plugin "3.2.5"
+    strapi-utils "3.2.5"
     yup "^0.27.0"
 
 strapi-plugin-email@3.1.1:

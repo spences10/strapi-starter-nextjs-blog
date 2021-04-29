@@ -95,7 +95,6 @@ results
 node_modules
 .node_history
 
-
 ############################
 # Tests
 ############################
@@ -108,22 +107,8 @@ coverage
 ############################
 
 .env
+license.txt
 exports
-.cache
+*.cache
 build
-
-
-# Custom
-
-__MACOSX/*
-
-############################
-# Strapi
-############################
-
-exports
-.cache
-build
-
-# Custom
-.vscode/*
+.strapi-updater.json

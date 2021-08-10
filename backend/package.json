@@ -21,7 +21,7 @@
     "strapi-plugin-upload": "3.6.6",
     "strapi-plugin-i18n": "3.6.0",
     "strapi-connector-bookshelf": "3.6.0",
-    "knex": "0.21.20",
+    "knex": "0.21.21",
     "sqlite3": "5.0.2",
     "mime-types": "2.1.32",
     "strapi-plugin-graphql": "3.6.0"
